@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/github-actions-tune@v1
-    -name : Update sources
+    - name : Update sources
       run: sudo apt-get update -y
     - name: Install libguestfs-tools
       run: sudo apt-get install libguestfs-tools -y
